@@ -34,8 +34,9 @@ Misschien uit te breiden met een soort moodboards bij de iconen (onder een dropd
 ### Wat gaat er gebeuren?
 
 1. Overview op de homepage laadt alleen de 12 iconen
-2. Wanneer op één van de iconen wordt geklikt en de user naar de pagina van het desbetreffende genre wordt gelinkt, wordt de API pas aangeroepen.
-3. Filteren op: book - dutch - ageYouth - [genre of topic] - sorteren op [title] - &count=25
+2. Wanneer op één van de iconen wordt geklikt en de user naar de pagina van het desbetreffende genre wordt gelinkt, wordt de API pas aangeroepen --> route naar genreDetailpagina.
+3. Filteren op: book - dutch - ageYouth - [genre of topic dat aangeklikt is] - sorteren op [title] - &count=25
+4. Op de genreDetailpagina worden vervolgens de boeken geladen, wanneer er op een van deze geklikt wordt, word je doorverwezen naar de detailpagina van het desbetreffende boek; nieuwe API call waarin het volgende wordt opgevraagd: titel, auteur, [...]
 
 Genres:
 

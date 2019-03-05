@@ -11,19 +11,31 @@ html {
 }
 
 body {
+  margin: 4vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 header {
+  display: block;
 }
 
 main {
   display: flex;
   flex-wrap: wrap;
+  max-width: 80vw;
 }
 
 section {
-  background-color: pink;
+  background-color: #812c7c;
   margin: 1vw;
+  padding: 0vw 1vw;
+  align-items: center;
+  width: 15vw;
+  max-width: 20vw;
+  display: flex;
+  flex-direction: column;
 }
 
 article {
@@ -43,6 +55,7 @@ h1 {
 }
 
 h2 {
+  font-size: 2vw;
   font-family: "Nunito", sans-serif;
   color: #00a3da;
 }
@@ -54,14 +67,20 @@ p {
 }
 
 img {
+  margin: 0vw 1vw 1vw 1vw;
+  max-width: 10vw;
+  align-self: center;
+  border-style: solid;
+  border-color: rgb(26, 26, 26, 0.5);
+  border-width: 0.1rem;
+  padding: 0rem 0.4rem 0.4rem 0.4rem;
 }
 
 /* LAYOUT */
 
 /* MODULES */
 .genre{
-  max-width: 10vw;
-  padding: 1vw;
+  width: 10vw;
 
 }
 /* STATE */
