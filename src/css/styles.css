@@ -1,1 +1,61 @@
+/* BASE */
 
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #f2f9fc;
+}
+
+body {
+}
+
+header {
+}
+
+main {
+}
+
+section {
+}
+
+article {
+}
+
+span {
+}
+
+blockquote {
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: "Nunito", sans-serif;
+  font-variant: small-caps;
+  color: #d8127d;
+}
+
+h2 {
+  font-family: "Nunito", sans-serif;
+  color: #00a3da;
+}
+
+h3 {
+}
+
+p {
+}
+
+img {
+}
+
+/* LAYOUT */
+
+/* MODULES */
+
+/* STATE */
+
+/* THEME */
