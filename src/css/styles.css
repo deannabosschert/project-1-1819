@@ -17,9 +17,13 @@ header {
 }
 
 main {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 section {
+  background-color: pink;
+  margin: 1vw;
 }
 
 article {
@@ -55,7 +59,11 @@ img {
 /* LAYOUT */
 
 /* MODULES */
+.genre{
+  max-width: 10vw;
+  padding: 1vw;
 
+}
 /* STATE */
 
 /* THEME */
