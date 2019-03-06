@@ -5,8 +5,8 @@
 ### Inspiratie
 
 Mijn concept is gebaseerd op het idee van Charlotte (Project Interaction 2019, CMD Amsterdam):
-Voor de kinderafdeling, de jongste lezers helpen vinden door ze visueel te laten zoeken met dezelfde categorieën als
-Bv griezel plaatje aanklikken (en daarna een ander plaatje?)  om tot boekkeuze te komen (en dan de weg krijgen naar de boekenkast).
+"Voor de kinderafdeling, de jongste lezers helpen vinden door ze visueel te laten zoeken met dezelfde categorieën als
+Bv griezel plaatje aanklikken (en daarna een ander plaatje?)  om tot boekkeuze te komen (en dan de weg krijgen naar de boekenkast)."
 
 Binnen de site van de KinderOBA miste ik inderdaad het casual browsen binnen de algemene genres; er kan alleen gezocht worden via de search bar of via al uitgelichte genres of thema's. Aangezien kinderen vaak nog aan het ontdekken zijn van welke soort schrijvers ze houden of van welk thema, lijkt dit mij toch een best belangrijk missend onderdeel.
 
@@ -36,7 +36,7 @@ Misschien uit te breiden met een soort moodboards bij de iconen (onder een dropd
 1. Overview op de homepage laadt alleen de 12 iconen
 2. Wanneer op één van de iconen wordt geklikt en de user naar de pagina van het desbetreffende genre wordt gelinkt, wordt de API pas aangeroepen --> route naar genreDetailpagina.
 3. Filteren op: book - dutch - ageYouth - [genre of topic dat aangeklikt is] - sorteren op [title] - &count=25
-4. Op de genreDetailpagina worden vervolgens de boeken geladen, wanneer er op een van deze geklikt wordt, word je doorverwezen naar de detailpagina van het desbetreffende boek; nieuwe API call waarin het volgende wordt opgevraagd: titel, auteur, [...]
+4. Op de genreDetailpagina worden vervolgens de boeken geladen, wanneer er op een van deze geklikt wordt, word je doorverwezen naar de detailpagina van het desbetreffende boek; nieuwe API call waarin het volgende wordt opgevraagd: titel, auteur, omslagfoto [...]
 
 Genres:
 

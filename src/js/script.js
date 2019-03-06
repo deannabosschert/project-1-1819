@@ -12,3 +12,18 @@ function toJSON(stream) {
   console.log(stream);
 }
 init();
+
+
+wat er moet gebeuren:
+routing
+- zodra er '/[genre]' wordt aangeroepen, laad dan template van genreDetailpagina (bestaande uit omslagfoto-titel-auteur-beschrijving waarbij er door de data heen wordt gelooped en er max 25 boeken worden weergegeven?)
+--> array met de soorten genres? if in array, dan laden genreDetailpagina?
+--> else, render error (beetje lelijk aangezien je meestal meer soorten pagina's hebt dan alleen de lijst met boeken binnen een genre)
+
+ api/localstorage
+if data in localstorage, laad dan die data in het template
+else roep api aan en vraag data op waarbij je filtert op book - dutch - ageYouth (0-12 jaar)- [genre of topic dat aangeklikt is]
+link door op render
+
+rendering
+render overview van genreDetailpagina --> vult template in
