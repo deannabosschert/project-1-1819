@@ -11,34 +11,38 @@ html {
 }
 
 body {
-  margin: 4vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  /* font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300))); */
+  margin: 1.5vw 3vw 3vw 3vw;
 }
 
-header {
-  display: block;
+header{
+  margin-left: 1.5vw;
+  display: flex;
+  align-items: center;
+  border-bottom: 0.1rem solid rgb(26, 26, 26, 0.5);
 }
 
 main {
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 80vw;
-  margin-left: 5vw;
-  margin-right: 5vw;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
 }
 
 section {
   background-color: #812c7c;
-  margin: 1vw;
-  padding: 0vw 1vw;
-  align-items: center;
-  /* width: 15vw; */
-  /* max-width: 20vw; */
+  height: 20vw;
+  width: 20vw;
+  max-width: 20vw;
+  margin: 1.7vw;
   display: flex;
   flex-direction: column;
+  border-radius: 1rem;
+  box-shadow: 4px 4px 4px 0px rgba(189,189,189,1);
+  padding: 2vw;
+}
+
+.genres{
+  display: flex;
+  flex-wrap: wrap;
 }
 
 article {
@@ -51,15 +55,16 @@ blockquote {
 }
 
 h1 {
-  /* font-size: 3rem; */
+  font-size: 7vw;
   font-family: "Nunito", sans-serif;
   font-variant: small-caps;
   color: #d8127d;
-  margin-left: 5vw;
+  margin: 0;
 }
 
 h2 {
-  /* font-size: 2vw; */
+  margin: 0;
+  font-size: 2.5vw;
   font-family: "Nunito", sans-serif;
   color: #00a3da;
 }
@@ -71,21 +76,26 @@ p {
 }
 
 img {
-  margin: 0vw 1vw 1vw 1vw;
-  max-width: 10vw;
-  align-self: center;
-  border-style: solid;
+  /* border-style: solid;
   border-color: rgb(26, 26, 26, 0.5);
-  border-width: 0.1rem;
-  padding: 0rem 0.4rem 0.4rem 0.4rem;
+  border-width: 0.1rem; */
 }
 
 /* LAYOUT */
 
-/* MODULES */
-.genre{
-  width: 10vw;
 
+/* MODULES */
+.genreIcon{
+  max-width: 10vw;
+  align-self: center;
+  margin-top: 2vw;
+  /* height: 20vw;
+  width: 20vw; */
+}
+
+.logo{
+  height: 7vw;
+  margin-right: 3vw;
 }
 /* STATE */
 
