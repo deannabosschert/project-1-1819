@@ -10,7 +10,7 @@ Bv griezel plaatje aanklikken (en daarna een ander plaatje?)  om tot boekkeuze 
 
 Binnen de site van de KinderOBA miste ik inderdaad het casual browsen binnen de algemene genres; er kan alleen gezocht worden via de search bar of via al uitgelichte genres of thema's. Aangezien kinderen vaak nog aan het ontdekken zijn van welke soort schrijvers ze houden of van welk thema, lijkt dit mij toch een best belangrijk missend onderdeel.
 
-### Mijn concept
+### Het concept
 
 Kinderen kunnen een boek vinden door middel van filteren via genres op basis van visuele weergaves van de verschillende genres ipv tekstueel.
 Over het algemeen zoeken kids hun boeken voornamelijk uit op basis van omslag en wat voor associatie ze hebben bij een bepaald onderwerp, dus waarom dan ook geen mogelijkheid tot casual browsen binnen een genre op basis van een visuele representatie van het genre?
