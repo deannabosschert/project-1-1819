@@ -99,4 +99,23 @@ img {
 }
 /* STATE */
 
+section:hover #naald{
+  /* transform: rotate(360deg); */
+  transform-origin: center;
+  animation-name: spin;
+  animation-duration: 3000ms;
+  animation-iteration-count: infinite;
+  transition-delay: 1s;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+    transform-origin: center;
+  }
+  to {
+    transform: rotate(360deg);
+    transform-origin: center;
+
+  }
 /* THEME */
